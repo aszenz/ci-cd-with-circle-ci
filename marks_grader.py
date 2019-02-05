@@ -3,17 +3,26 @@ def isNumeric(var):
 
 
 def marks_grade(marks):
-    assert (isNumeric(marks), 'Marks not in right format')
+    """Converts marks to grades
+    
+    Args:
+        marks (int): marks as an int
+    Returns:
+        grade character
+    Raises:
+        AssertionError: If type of marks is not int or float
+    """
+    assert isNumeric(marks), 'Marks not in right format'
     if marks < 40:
         return 'F'
-    elif marks >= 40 and marks < 50:
+    if marks >= 40 and marks < 50:
         return 'E'
-    elif marks >= 50 and marks < 60:
+    if marks >= 50 and marks < 60:
         return 'D'
-    elif marks >= 60 and marks < 70:
+    if marks >= 60 and marks < 70:
         return 'C'
-    elif marks >= 70 and marks < 80:
+    if marks >= 70 and marks < 80:
         return 'B'
-    elif marks >= 80 and marks < 90:
+    if marks >= 80 and marks < 90:
         return 'A'
     return 'A+'
