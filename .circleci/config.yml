@@ -1,0 +1,14 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node
+    steps:
+      - checkout
+      - run: node testCalc.js
+  build:
+    docker:
+      - image: circleci/python
+    steps:
+      - checkout
+      - run: python testMarksGrader.py
