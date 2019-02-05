@@ -1,4 +1,5 @@
 const calculator = require('./calc')
+const assert = require('assert')
 
 assert(calculator.add(4, 5) == 9, 'testing add')
 assert(calculator.sub(5, 3) == 2, 'testing sub')

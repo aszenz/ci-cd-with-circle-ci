@@ -1,0 +1,19 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Demo project with CI/CD using Circle CI",
+  "main": "calc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aszenz/ci-cd-with-circle-ci.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aszenz/ci-cd-with-circle-ci/issues"
+  },
+  "homepage": "https://github.com/aszenz/ci-cd-with-circle-ci#readme"
+}
